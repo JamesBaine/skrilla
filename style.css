@@ -39,6 +39,12 @@ body {
     position: relative;
 }
 
+.logo {
+    width: 100px;
+    margin-left: 18rem;
+    margin-top: 6rem;
+}
+
 .budget {
     position: absolute;
     width: 350px;
