@@ -1,0 +1,22 @@
+{
+  "name": "skrilla",
+  "version": "1.0.0",
+  "description": "<img src=\"skrilla-grey.png\" alt=\"Skrilla\" width=\"150\">",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesBaine/skrilla.git"
+  },
+  "author": "James Baine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesBaine/skrilla/issues"
+  },
+  "homepage": "https://github.com/JamesBaine/skrilla#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
