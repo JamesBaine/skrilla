@@ -1,0 +1,10 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right { float: right; }
+
+.red { color: $color_secondary !important; }
+.red-focus:focus { border: 1px solid $color_secondary !important; }

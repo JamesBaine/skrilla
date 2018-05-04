@@ -9,11 +9,25 @@
 
 
 .budget {
+    width: 30%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: $color-white;
+
+    @include respond(tab-land) {
+        width: 35%;
+    }
+
+    @include respond(tab-port) {
+        width: 40%;
+    }
+
+    @include respond(phone) {
+        width: 75%;
+    }
+
     
     &__title {
         font-size: 1.8rem;
@@ -33,6 +47,7 @@
     &__income, &__expenses {
         padding: 1.2rem;
         text-transform: uppercase;
+        @include clearfix;
 
         &--text {
             float: left;
