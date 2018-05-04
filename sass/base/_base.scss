@@ -15,6 +15,10 @@ body {
     height: 100vh;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 .right { float: right; }
 .red { color: $color_secondary !important; }
 .red-focus:focus { border: 1px solid $color_secondary !important; }
