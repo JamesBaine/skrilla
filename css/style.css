@@ -75,15 +75,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff; }
-  @media only screen and (max-width: 75em) {
-    .budget {
-      width: 35%; } }
-  @media only screen and (max-width: 56.25em) {
-    .budget {
-      width: 40%; } }
-  @media only screen and (max-width: 37.5em) {
-    .budget {
-      width: 75%; } }
   .budget__title {
     font-size: 1.8rem;
     text-align: center;
@@ -201,9 +192,10 @@ body {
     border-radius: 5px;
     transition: border 0.3s; }
   .add__description {
-    width: 400px; }
+    width: 33.3%; }
   .add__value {
-    width: 100px; }
+    width: 10%;
+    min-width: 8rem; }
   .add__btn {
     font-size: 3.5rem;
     background: none;
@@ -223,11 +215,23 @@ body {
     border: 1px solid #28B9B5; }
 
 /***** LISTS *****/
-.income__title {
-  color: #28B9B5; }
+.income {
+  float: left;
+  width: 45%; }
+  .income__title {
+    color: #28B9B5; }
+  @media only screen and (max-width: 56.25em) {
+    .income {
+      width: 100%; } }
 
-.expenses__title {
-  color: #FF5049; }
+.expenses {
+  float: left;
+  width: 45%; }
+  .expenses__title {
+    color: #FF5049; }
+  @media only screen and (max-width: 56.25em) {
+    .expenses {
+      width: 100%; } }
 
 h2 {
   text-transform: uppercase;

@@ -40,8 +40,13 @@
         transition: border 0.3s;
     }
     
-    &__description { width: 400px;}
-    &__value { width: 100px;}
+    &__description { 
+        width: 33.3%;
+    }
+    &__value { 
+        width: 10%;
+        min-width: 8rem;
+    }
 
     &__btn {
         font-size: 3.5rem;
@@ -73,13 +78,24 @@
 /***** LISTS *****/
 
 .income {
-
+    float: left;
+    width: 45%;
     &__title { color: $color-primary; }
+
+    @include respond(tab-port) {
+        width: 100%;
+    }
+    
 }
 
 .expenses {
-
+    float: left;
+    width: 45%;
     &__title { color: $color_secondary; }
+
+    @include respond(tab-port) {
+        width: 100%;
+    }
 }
 
 h2 {
