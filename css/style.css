@@ -221,14 +221,21 @@ body {
     border: 1px solid #28B9B5; }
 
 /***** LISTS *****/
+.container {
+  width: 95%;
+  margin: 6rem auto; }
+
 .income {
   float: left;
-  width: 45%; }
-  .income__title {
-    color: #28B9B5; }
+  width: 45%;
+  margin-right: 3rem; }
   @media only screen and (max-width: 56.25em) {
     .income {
-      width: 100%; } }
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 3rem; } }
+  .income__title {
+    color: #28B9B5; }
 
 .expenses {
   float: left;
@@ -259,11 +266,11 @@ h2 {
     transition: transform 0.3s; }
   .item__percentage {
     float: left;
-    margin-left: 20px;
+    margin-left: 2rem;
     transition: transform 0.3s;
-    font-size: 11px;
+    font-size: 1.1rem;
     background-color: #FFDAD9;
-    padding: 3px;
+    padding: .3rem;
     border-radius: 3px;
     width: 32px;
     text-align: center; }
